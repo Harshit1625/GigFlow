@@ -117,10 +117,9 @@ Race conditions are prevented using secure transaction.
 ```
 GigFlow/
 │
-├── client/        # React frontend
-├── server/        # Node + Express backend
+├── frontend/        # React frontend
+├── backend/        # Node + Express backend
 ├── .env.example   # Environment variables
-└── README.md
 ```
 
 ---
