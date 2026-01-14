@@ -84,7 +84,7 @@ When a client hires a freelancer:
 3. All other bids → `rejected`
 4. Freelancer gets instant notification
 
-Race conditions are prevented using secure logic / transactions.
+Race conditions are prevented using secure transaction.
 
 ---
 
@@ -94,7 +94,7 @@ Race conditions are prevented using secure logic / transactions.
 
 * React (Vite)
 * Tailwind CSS
-* Context API / Redux Toolkit
+* Context API 
 
 **Backend**
 
@@ -139,6 +139,8 @@ GigFlow/
 | Method | Endpoint  | Description      |
 | ------ | --------- | ---------------- |
 | GET    | /api/gigs | Fetch open gigs  |
+| GET    | /api/appliedgigs | Fetch gigs where you placed your bids  |
+| GET    | /api/postedgigs | Fetch gigs you posted  |
 | POST   | /api/gigs | Create a new gig |
 
 ### Bids
@@ -204,7 +206,7 @@ VITE_BACKEND_URL =
 ### Backend
 
 ```
-cd server
+cd backend
 npm install
 npm run dev
 ```
@@ -212,7 +214,7 @@ npm run dev
 ### Frontend
 
 ```
-cd client
+cd frontend
 npm install
 npm run dev
 ```
@@ -231,7 +233,7 @@ npm run dev
 ---
 
 ## 📽 Demo
-* Demo Video (Loom): *Add your link*
+* Demo Video (Loom): https://www.loom.com/share/7b536f8581df440cbe720ca4214cbff6
 
 ---
 
