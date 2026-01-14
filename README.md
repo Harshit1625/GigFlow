@@ -186,9 +186,15 @@ GigFlow/
 Create a `.env` file:
 
 ```
-MONGO_URI=your_mongodb_url
-JWT_SECRET=your_secret_key
-CLIENT_URL=http://localhost:5173
+# backend (use dotenv , process.env.)
+FRONTEND_ORIGIN =
+MONGO_URI =
+PORT =
+JWT_SECRET_KEY =
+
+
+# frontend ( use import.meta.env.VITE_BACKEND_URL)
+VITE_BACKEND_URL = 
 ```
 
 ---
